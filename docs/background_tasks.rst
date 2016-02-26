@@ -60,7 +60,6 @@ Using other job queue libraries
 
 As of today background processing is tied to celery.
 
-While we are not planning to support different queue jobs libraries in the near future using something different than celery
-should be quite easy and can be mostly done subclassing the feeds manager.
+While we are not planning to support different queue jobs libraries in the near future, it should be quite easy to use other queue jobs libraries. This can usually be done by subclassing the feeds manager.
 
 .. _celery documentation: http://docs.celeryproject.org/en/latest/
